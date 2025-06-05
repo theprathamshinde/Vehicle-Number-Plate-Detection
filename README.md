@@ -6,6 +6,8 @@ Objectives:
 2. Extract the number plate.
 3. Apply Optical Character Recognition on extracted number plate.
 
+You can download our Vehicle Number Plate Detection Model from : https://drive.google.com/drive/folders/1T-Wqr_dSGZ-yw4wspnp37meivhEexMh_?usp=drive_link
+
 Block Diagram :
 
 ![image](https://github.com/user-attachments/assets/509e4c99-4780-483e-9c8a-f431f53382cc)
