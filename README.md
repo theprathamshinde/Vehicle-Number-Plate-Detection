@@ -1,14 +1,37 @@
-Problem Statement:
-To Build a model for detecting the number plate from vehicle image and recognizing the characters from it.The system will able to identify different plate forms, adjust to different lighting conditions, and guarantee recognition accuracy. 
 
-Objectives:
+# 🚗 Object Detection using TensorFlow and OpenCV
+
+This project demonstrates a simple object detection pipeline using TensorFlow and OpenCV. The workflow includes annotation conversion, model training, and object detection on new images.
+
+## Objectives:
 1. To detect the number plate i.e area of interest from vehicle image.
 2. Extract the number plate.
 3. Apply Optical Character Recognition on extracted number plate.
+---
 
-You can download our Vehicle Number Plate Detection Model from : https://drive.google.com/drive/folders/1T-Wqr_dSGZ-yw4wspnp37meivhEexMh_?usp=drive_link
+## 📁 Project Structure
+.
+├── 01_xml_to_csv.ipynb # Converts PASCAL VOC XML annotations to CSV format
+├── 02_Object_Detection.ipynb # Loads data, trains a deep learning model
+├── 03_Make_Prediction.ipynb # Loads trained model, performs predictions
+├── /images # Contains input images and XML annotation files
+├── /model # Trained model is saved here
+└── README.md # This file
 
-Block Diagram :
+
+---
+
+## 📦 Requirements
+
+Install the required Python libraries:
+
+```bash
+pip install -r requirements.txt
+```
+## You can download our Vehicle Number Plate Detection Model from : https://drive.google.com/drive/folders/1T-Wqr_dSGZ-yw4wspnp37meivhEexMh_?usp=drive_link
+
+
+## Block Diagram :
 
 ![image](https://github.com/user-attachments/assets/509e4c99-4780-483e-9c8a-f431f53382cc)
 
