@@ -9,18 +9,6 @@ This project demonstrates a simple object detection pipeline using TensorFlow an
 3. Apply Optical Character Recognition on extracted number plate.
 ---
 
-## 📁 Project Structure
-.
-├── 01_xml_to_csv.ipynb # Converts PASCAL VOC XML annotations to CSV format
-├── 02_Object_Detection.ipynb # Loads data, trains a deep learning model
-├── 03_Make_Prediction.ipynb # Loads trained model, performs predictions
-├── /images # Contains input images and XML annotation files
-├── /model # Trained model is saved here
-└── README.md # This file
-
-
----
-
 ## 📦 Requirements
 
 Install the required Python libraries:
@@ -28,8 +16,10 @@ Install the required Python libraries:
 ```bash
 pip install -r requirements.txt
 ```
-## You can download our Vehicle Number Plate Detection Model from : https://drive.google.com/drive/folders/1T-Wqr_dSGZ-yw4wspnp37meivhEexMh_?usp=drive_link
 
+### Download Our UWIR Model
+
+[Download model](https://drive.google.com/drive/folders/1T-Wqr_dSGZ-yw4wspnp37meivhEexMh_?usp=drive_link)
 
 ## Block Diagram :
 
