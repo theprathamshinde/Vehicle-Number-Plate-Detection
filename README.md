@@ -1,7 +1,7 @@
 
-# 🚗 Object Detection using TensorFlow and OpenCV
+# 🚗 Vehicle Number Plate Detection using TensorFlow and OpenCV
 
-This project demonstrates a simple object detection pipeline using TensorFlow and OpenCV. The workflow includes annotation conversion, model training, and object detection on new images.
+This project demonstrates a simple Vehicle Number Plate detection pipeline using TensorFlow and OpenCV. The workflow includes annotation conversion, model training, and object detection on new images.
 
 ## Objectives:
 1. To detect the number plate i.e area of interest from vehicle image.
